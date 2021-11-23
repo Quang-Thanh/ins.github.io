@@ -1,0 +1,109 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    margin: 0px 0px 10px;
+    padding: 10px 0px;
+    background-image: url(https://i.pinimg.com/564x/56/fc/6e/56fc6e905d1f839c68af4700f2c8e2a1.jpg);
+}
+
+.login-instagram{
+    text-align: center;
+    background-color: white;
+    width: 350px;
+    box-shadow: 0px 1px 6px rgba(00, 00, 00, 0.3);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 15px 10px;
+    margin: 100px 200px 50px 560px; 
+}
+
+.input + .input{
+    margin-top: 15px;
+}
+
+.input-login,
+.input-pass{
+    background-color: #fafafa;
+    padding: 9px 0px 7px 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(00, 00, 00, 0.2);
+    outline: none;
+}
+
+.input-login:focus,
+.input-pass:focus{
+    border: 1px solid black;
+    caret-color: black;
+}
+
+.input-login::placeholder,
+.input-pass::placeholder{
+    color: rgba(00, 00, 00, 0.2);
+}
+
+.login-button{
+    background-color: #d33158;
+    padding: 9px 0px 7px 8px;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid rgba(00, 00, 00, 0.2);
+    outline: none;
+    margin-top: 15px;
+}
+
+
+.login-newacc{
+    text-align: center;
+    background-color: white;
+    width: 350px;
+    box-shadow: 0px 1px 6px rgba(00, 00, 00, 0.3);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 15px 10px;
+    margin: 0px 100px 20px 560px;
+}
+
+.login-fb{
+    margin-top: 15px;
+}
+
+.login-fb a{
+    /* margin-top: 20px; */
+    font-weight: bold;
+    text-decoration: none;
+    color: #864997;
+}
+
+.qmk{
+    text-decoration: none;
+    color: #864997;
+    margin-top: 15px;
+}
+
+.newacc{
+    color: #c6346a;
+    text-decoration: none;
+}
+
+.dow{
+    background-color: #f0f2f5;
+    text-align: center;
+    width: 350px;
+    margin: 20px 100px 20px 560px;
+
+}
+
+.dow a{
+    text-decoration: none;
+    color: black;
+}
+
+.images{
+    width: 350px;
+    text-align: center;
+    margin: 20px 100px 20px 560px;
+}
